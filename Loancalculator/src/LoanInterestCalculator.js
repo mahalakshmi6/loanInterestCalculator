@@ -19,7 +19,8 @@ export default class LoanCalculator extends Component {
     calculateLoan = () => {
         if ((this.state.inputAmountValue >= 500 && this.state.inputAmountValue <= 5000) && (this.state.inputMonthValue >= 6 && this.state.inputMonthValue <= 24)) {
             this.setState({
-                buttonValue: 'Calculating...'
+                buttonValue: 'Calculating...',
+                showError:false
             })
             let previousCalculatedDetails = this.state.previousCalculatedDetails
             var data = {
