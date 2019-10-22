@@ -1,5 +1,5 @@
 # loanInterestCalculator
-Project Title
+#Project Title
 React loan calculator
 
-Getting started
+#Getting started
